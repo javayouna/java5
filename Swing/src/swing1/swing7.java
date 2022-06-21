@@ -98,7 +98,7 @@ public class swing7 extends JFrame {
 		textField.setColumns(10);
 	
 		
-		btn.addActionListener(new ActionListener() {
+		btn.addActionListener(new ActionListener() { //결제진행
 			public void actionPerformed(ActionEvent e) {
 				String pay ="";
 				
