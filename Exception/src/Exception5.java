@@ -2,8 +2,7 @@
 public class Exception5 {
 	//역할 : 값 주고, 출력만 함 
 	public static void main(String[] args)  { //값 전달
-	
-		words wd = new words();
+			words wd = new words();
 		
 		try {
 			String result = wd.files(null);
