@@ -27,24 +27,28 @@ public class Example1 {
 		Scanner sc = new Scanner(System.in);
 		String user=sc.next().intern();
 		sc.close();
+		
 		boolean ch=false;
 		
 		for(int i=0;i<data.size();i++) {
+			
 			if(data.get(i).indexOf(user)!=-1) {
 			//if(data.get(i).contains(user)) {
 				System.out.println(data.get(i));
-				ch=true;
+				ch=true;		
 			}
 		}
 		if(ch==false) {
-			System.out.println("해당 영화 정보가 없다.");		
-	}
+			System.out.println("검색한 영화는 확인되지않습니다^^");		
 		}
-		catch(IOException e) {
-				//if(e.getMessage()!=null) {
-				//System.out.println("확인되지 않았습니다");
-			}
-		
+		}
 
-	}
+		catch(IOException e) {
+		
+				
+			}
+		}
+
+	
 }
+
