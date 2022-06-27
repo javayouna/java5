@@ -18,28 +18,28 @@ public class Example2 {
 	 * 
 	 */
 		
-		try {
-			List<String> data = Files.readAllLines(Paths.get("C:\\java5\\File_Strame\\src\\movie.txt"));
-			
-			int ea = data.size();
-			
-			for(int i=0;i<ea;i++) {
-				if(data.get(i)[1]) < 100) {
-					
-				}
-			}
-			
-			
-		
-		
-		}
-		catch(Exception a) {
-			
-		}
-		
-		
-		
-
-	}
+//		try {
+//			List<String> data = Files.readAllLines(Paths.get("C:\\java5\\File_Strame\\src\\movie.txt"));
+//			
+//			int ea = data.size();
+//			
+//			for(int i=0;i<ea;i++) {
+//				//if(data.get(i)[1]) < 100) {
+//					
+//				}
+//			}
+//			
+//			
+//		
+//		
+//		}
+//		catch(Exception a) {
+//			
+//		}
+//		
+//		
+//		
+//
+}
 
 }
